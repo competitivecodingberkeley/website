@@ -1,0 +1,25 @@
+$family: "IBM Plex Sans";
+$family-display: "IBM Plex Mono";
+
+$colors: (
+	"blue": #003262,
+	"cyan": #3B7EA1,
+	"yellow": #FDB515,
+	"gold": #FDB515,
+);
+
+$link: #3B7EA1;
+
+$breakpoints: (
+	'big': 1000px
+);
+
+$container-override: (
+	'big': 700px
+);
+
+@import '../../node_modules/briefscss/src/init.scss';
+
+
+@import '../../node_modules/briefscss/src/main.scss';
+
